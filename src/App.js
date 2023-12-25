@@ -3,7 +3,7 @@ import axios from "axios";
 import dayjs from "dayjs";
 import EditModal from "./EditModal/EditModal";
 
-const url = 'https://65642480ceac41c0761d7ea7.mockapi.io/todo'
+const url = 'https://658988ec324d4171525919ae.mockapi.io/todo'
 const App = () => {
     const [todos, setTodos] = useState([])
     const [todoTitle, setTodoTitle] = useState('')
